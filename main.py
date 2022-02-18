@@ -17,7 +17,6 @@ class MyWindow(QMainWindow):
         self.label = QtWidgets.QLabel(self)  # Input label location
         self.label.setText("My First Label")  # Label Text
         self.label.move(50, 50)
-
         # Button
         self.button = QtWidgets.QPushButton(self)
         self.button.setText("Click Me!")
