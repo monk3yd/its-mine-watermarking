@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
         self.photo = QtWidgets.QLabel(self.centralwidget)
         self.photo.setGeometry(QtCore.QRect(190, 10, 701, 501))
         self.photo.setText("")
-        self.photo.setPixmap(QtGui.QPixmap("cat1.png"))
+        self.photo.setPixmap(QtGui.QPixmap("img/cat1.png"))
         self.photo.setScaledContents(True)
         self.photo.setObjectName("photo")
         self.cat = QtWidgets.QPushButton(self.centralwidget)
@@ -83,10 +83,10 @@ class Ui_MainWindow(object):
         self.actionPaste.setShortcut(_translate("MainWindow", "Ctrl+V"))
 
     def show_dog(self):
-        self.photo.setPixmap(QtGui.QPixmap("dog1.jpg"))
+        self.photo.setPixmap(QtGui.QPixmap("img/dog1.jpg"))
 
     def show_cat(self):
-        self.photo.setPixmap(QtGui.QPixmap("cat1.png"))
+        self.photo.setPixmap(QtGui.QPixmap("img/cat1.png"))
 
 
 if __name__ == "__main__":
