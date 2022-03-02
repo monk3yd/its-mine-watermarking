@@ -6,30 +6,57 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1072</width>
+    <height>789</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="photo">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>70</y>
-      <width>211</width>
-      <height>121</height>
+      <x>190</x>
+      <y>10</y>
+      <width>701</width>
+      <height>501</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>30</pointsize>
-     </font>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>cat1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cat">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>520</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>CAT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dog">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>520</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DOG</string>
     </property>
    </widget>
   </widget>
@@ -38,7 +65,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1072</width>
      <height>21</height>
     </rect>
    </property>
